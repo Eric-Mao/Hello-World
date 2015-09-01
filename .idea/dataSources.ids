@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - db_psw@localhost" uuid="fe434635-f08e-4472-a0be-089902a51433">
+    <database-info product="MySQL" version="5.5.44-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="db_psw"/>
+    <table name="T_fact_data" schema="" catalog="db_psw" type="TABLE">
+      <column name="FID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6Ieq5aKe6ZW/5Li76ZSu" autoIncrement="true"/>
+      <column name="F_WEB_USERNAME" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12" remarks="572R57uc55So5oi355qE55So5oi35ZCN"/>
+      <column name="F_WEB_PASSWORD" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12" def="Jy5wc3dAMTIzNDU2Jw==" remarks="55So5oi35ZCN5a+55bqU55qE5a+G56CB"/>
+      <column name="F_WEB_EMAIL" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12" remarks="55So5oi35rOo5YaM5pe25Y+v6IO955qE6YKu566x5ZCN77yM5Y+v5Lul5Li656m6"/>
+      <column name="F_WEB_REMARK" sqlType="VARCHAR" precision="1000" scale="0" nullable="true" jdbcType="12" remarks="55So5oi35a+55q2k6LSm5oi35L+h5oGv55qE5o+P6L+w"/>
+      <column name="F_WEB_ADDREES" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="55So5oi35rOo5YaM55qE572R56uZ5Zyw5Z2A"/>
+      <primary-key name="PRIMARY" columns="FID"/>
+    </table>
+  </data-source>
+</component>
